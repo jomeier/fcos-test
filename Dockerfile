@@ -1,4 +1,4 @@
-FROM fedora:32
+FROM fedora:29
 
 RUN dnf -y update
 RUN dnf -y install gcc make automake gcc-c++
